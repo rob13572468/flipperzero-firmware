@@ -5,11 +5,13 @@ bool furi_hal_version_do_i_belong_here(void) {
 }
 
 const char* furi_hal_version_get_model_name(void) {
-    return "Flipper Zero";
+    //return "Flipper Zero";
+    return "Porpoise One";
 }
 
 const char* furi_hal_version_get_model_code(void) {
-    return "FZ.1";
+    //return "FZ.1";
+    return "PO.1";
 }
 
 const char* furi_hal_version_get_fcc_id(void) {
